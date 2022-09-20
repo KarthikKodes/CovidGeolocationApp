@@ -1,0 +1,83 @@
+<!--
+   Statistics Page
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Statistics</title>
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" href="../images/worldMap.png"/>
+    <script type="text/javascript" src="code.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="sidebar" onclick="toggleMenu()">
+        <div class="toggle-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul>
+          <li>
+            <a href="../homepage/index.html">Home</a>
+          </li>
+          <li>
+            <a href="../googleMap/index.html">Mapping</a>
+          </li>
+          <li>
+            <a href="../getHelp/index.html">Question Page</a>
+          </li>
+          <li>
+            <a href="index.html">Statictics</a>
+          </li>
+          <li>
+            <a href="../resources/index.html">Extra Resources</a>
+          </li>
+        </ul>
+      </div>
+    <br>
+    <h1>Statistics</h1>
+    <div class="Title1">
+        <p>
+          <h2>Introduction</h2>
+          <br>
+          <br>
+        </p>
+        <img src="../images/covid.jpg" height="370" width="700">
+        <p>
+          <b>
+            This page displays all the statistics of covid cases by country and region. 
+            This page uses web scraping to transfer all information from worldometers.info into an excell sheet
+            The data is then organized and displayed into a table and into an array for the Google Maps. 
+          </b>
+        </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="Title2">
+      <p>These tables were created ourselves from the Excel Sheets</p>
+      <p>
+        <h2><b>Stats Chart By Country:<b></h2>
+        <br>
+        <br>
+        <iframe src="excel.html" title="chart" height="1000" width="1600" style="background-color: white;"></iframe>
+      </p>
+    </div>
+    <div class="Title3">
+      <p>
+          <h2><b>Stats Chart By Province:<b></h2>
+          <br>
+          <br>
+          <br>
+          <br>
+          <iframe src="provinceExcel.html" title="chart" height="600" width="800" style="background-color: white;"></iframe>
+      </p>
+    </div>
+  </body>
+</html>

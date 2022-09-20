@@ -1,0 +1,15 @@
+body{
+	background-image: url("../images/banner4_73.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-blend-mode: color-burn;
+}
+h1{
+	font-family: georgia;
+	color: white;
+}
+h2{
+	font-family: georgia;
+	color: white;
+}
