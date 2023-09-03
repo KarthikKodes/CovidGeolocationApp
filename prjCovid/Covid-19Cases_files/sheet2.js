@@ -60,25 +60,25 @@ else
  <tr height=20 style='height:15.0pt'>
   <td height=20 width=359 style='height:15.0pt;width:269pt'>Province</td>
   <td width=130 style='width:98pt'><span
-  style='mso-spacerun:yes'>                    </span>Population</td>
+  style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Population</td>
   <td width=202 style='width:152pt'><span
-  style='mso-spacerun:yes'>                                                     
+  style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â 
   </span>Tests</td>
   <td width=197 style='width:148pt'><span
-  style='mso-spacerun:yes'>                                                    
+  style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â 
   </span>Per k</td>
   <td width=157 style='width:118pt'><span
-  style='mso-spacerun:yes'>                                      </span>Cases</td>
+  style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Cases</td>
   <td width=155 style='width:116pt'><span
-  style='mso-spacerun:yes'>                                     </span>Per m</td>
+  style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Per m</td>
   <td width=156 style='width:117pt'><span
-  style='mso-spacerun:yes'>                                   </span>Recov.</td>
+  style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Recov.</td>
   <td width=159 style='width:119pt'><span
-  style='mso-spacerun:yes'>                                     </span>Deaths</td>
+  style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Deaths</td>
   <td width=153 style='width:115pt'><span
-  style='mso-spacerun:yes'>                                     </span>Per m</td>
+  style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Per m</td>
   <td width=135 style='width:101pt'><span
-  style='mso-spacerun:yes'>                              </span>Active</td>
+  style='mso-spacerun:yes'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Active</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
   <td height=20 style='height:15.0pt'>British ColumbiaBritish Columbia</td>
