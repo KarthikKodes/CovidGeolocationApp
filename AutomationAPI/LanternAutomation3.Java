@@ -121,9 +121,9 @@ public class automationTest {
         MobileElement el16 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/fragment_survey_rv_survey_jobs");
         el16.click();
 
-        //delay(2);
-        //MobileElement el17 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/cancel_label");
-        //el17.click();
+        delay(2);
+        MobileElement el17 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/cancel_label");
+        el17.click();
 
         Assert.assertEquals(ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/et_configure_survey_position_capture_frequency").getText(), "30");
         Assert.assertEquals(ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/et_configure_survey_maximum_time_limit").getText(), "45");
