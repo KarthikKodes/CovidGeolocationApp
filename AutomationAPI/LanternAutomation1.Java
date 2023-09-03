@@ -100,8 +100,6 @@ public class automationTest {
         delay(6);
         MobileElement el15 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/save_button");
         el15.click();
-        
-        Assert.assertEquals(ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/tv_spinner_dropdown_item").getText(),"map");
       
         (new TouchAction(ad))
             .press({x: 530, y: 39})
@@ -117,6 +115,9 @@ public class automationTest {
 
         MobileElement el26 = (MobileElement) ad.findElementByXPath("//android.widget.Switch[@content-desc=\"Do Not Disturb.\"]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ImageView");
         el26.click();
-        
+
+        Assert.assertEquals(ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/tv_spinner_dropdown_item").getText(),"map");
+        Assert.assertEquals(ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/map_service_item").getColorCodeHex(), #0B97E2);
+        Assert.assertEquals(ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/map_dropdown_item").getColorCodeHex(), #0734AD);
     }
 }
