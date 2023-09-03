@@ -3238,7 +3238,7 @@ else
  </tr>
  <tr height=20 style='height:15.0pt'>
   <td height=20 align=right style='height:15.0pt'>127</td>
-  <td>Réunion</td>
+  <td>RÃ©union</td>
   <td class=xl65 align=right>19,343</td>
   <td></td>
   <td align=right>141</td>
@@ -3589,7 +3589,7 @@ else
  </tr>
  <tr height=20 style='height:15.0pt'>
   <td height=20 align=right style='height:15.0pt'>142</td>
-  <td>Curaçao</td>
+  <td>CuraÃ§ao</td>
   <td class=xl65 align=right>12,022</td>
   <td></td>
   <td align=right>99</td>
@@ -4912,7 +4912,7 @@ else
  </tr>
  <tr height=20 style='height:15.0pt'>
   <td height=20 align=right style='height:15.0pt'>199</td>
-  <td>Brunei<span style='mso-spacerun:yes'> </span></td>
+  <td>Brunei<span style='mso-spacerun:yes'>Â </span></td>
   <td align=right>223</td>
   <td></td>
   <td align=right>3</td>
