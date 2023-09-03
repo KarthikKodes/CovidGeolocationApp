@@ -76,7 +76,7 @@
             /**********************************Taymur, Friday Jan, 15th, 4:40 p.m******************************************/
 
             alert('Please Wait While The Game Loads...');
-            /*
+            
             name=prompt('What is your name?');
 
             let redInput=+prompt('Enter the number of Red Balloons you would like to face\n minimum of 1 and maximum of 75');
@@ -134,7 +134,7 @@
                 {
                     alert('The number you have entered for this section does not meet the requirements, it will default to 1');
                 }
-            */
+            
             //CUSTOM FUNCTIONS
             /********************************************************************
             USE OF BUBBLE SORT
