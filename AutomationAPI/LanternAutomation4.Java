@@ -34,100 +34,90 @@ public class automationTest {
 
         AndroidDriver<AndroidElement> ad = new AndroidDriver<AndroidElement>(new URL("http://0.0.0.0:4723/wd/hub"), dc);
 
-        delay(9);
-        MobileElement el4 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/mapservice_card_holder");
+        delay(5);
+        MobileElement el1 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/mapservice_card_holder");
+        el1.click();
+
+        delay(7);
+        MobileElement el2 = (MobileElement) ad.findElementByAccessibilityId("Open navigation drawer");
+        el2.click();
+
+        delay(5);
+        MobileElement el3 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/filtering_spinner");
+        el3.click();
+
+        delay(8);
+        MobileElement el4 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/edit_button");
         el4.click();
 
-        delay(4);
-        MobileElement el5 = (MobileElement) ad.findElementByAccessibilityId("Open navigation drawer");
+        delay(5);
+        MobileElement el5 = (MobileElement) ad.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.widget.LinearLayout");
         el5.click();
 
-        delay(2);
-        MobileElement el6 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/fragment_survey_rv_survey_jobs");
+        delay(4);
+        MobileElement el6 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/show_gps_button");
         el6.click();
 
-        delay(2);
-        MobileElement el7 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/et_configure_survey_position_capture_frequency");
+        (new TouchAction(ad))
+            .press({x: 230, y: 47})
+            .moveTo({x: 462: y: 1262})
+            .release()
+            .perform()
+
+        (new TouchAction(ad))
+            .press({x: 572, y: 308})
+            .moveTo({x: 496: y: 1275})
+            .release()
+            .perform()
+
+
+        delay(5);
+        MobileElement el7 = (MobileElement) ad.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.FrameLayout/android.widget.EditText");
         el7.click();
 
-        delay(2);
-        el7.clear();
+        delay(5);
+        el7.sendKeys("valueInput1");
 
-        delay(2);
-        el7.sendKeys("30");
-
-        delay(2);
-        MobileElement el8 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/et_configure_survey_maximum_time_limit");
+        delay(5);
+        MobileElement el8 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/save_button");
         el8.click();
 
-        delay(2);
-        el8.clear();
+        delay(4);
+        MobileElement el9 = (MobileElement) ad.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.FrameLayout/android.widget.EditText");
+        el9.sendKeys("valueInput2");
 
-        delay(2);
-        el8.sendKeys("45");
+        delay(6);
+        MobileElement el10 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/menu_save");
+        el10.click();     
+    
+        delay(6);
+        el10.sendKeys("valueInput3");
 
-        delay(2);
-        MobileElement el9 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/et_configure_survey_maximum_acceptable_pdop");
-        el9.click();
+        (new TouchAction(ad))
+            .press({x: 170, y: 238})
+            .moveTo({x: 450: y: 1352})
+            .release()
+            .perform()
 
-        delay(2);
-        el9.clear();
+        (new TouchAction(ad))
+            .press({x: 326, y: 331})
+            .moveTo({x: 548: y: 1287})
+            .release()
+            .perform()
 
-        delay(2);
-        el9.sendKeys("4");
-
-        delay(2);
-        MobileElement el10 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/button_save");
-        el10.click();
-
-        delay(2);
-        MobileElement el11 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/et_configure_survey_maximum_acceptable_std_dev");
+        delay(6);
+        MobileElement el11 = (MobileElement) ad.findElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[4]/android.widget.FrameLayout/android.widget.EditText");
         el11.click();
 
-        delay(2);
-        el11.clear();
-
-        delay(2);
-        el11.sendKeys("9");
-
-        delay(2);
-        MobileElement el12 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/et_configure_survey_maximum_acceptable_pdop");
+        delay(6);
+        el11.sendKeys("3");
+        MobileElement el12 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/save_button");
         el12.click();
-
-        delay(2);
-        MobileElement el13 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/button_save");
-        el13.click();
-
-        delay(2);
-        ad.navigate().back();
-
-        delay(2);
-        MobileElement el14 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/button_save");
-        el14.click();
-
-        delay(2);
-        MobileElement el15 = (MobileElement) ad.findElementByAccessibilityId("Open navigation drawer");
-        el15.click();
-
-        delay(2);
-        MobileElement el16 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/fragment_survey_rv_survey_jobs");
-        el16.click();
-
-        //delay(2);
-        //MobileElement el17 = (MobileElement) ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/cancel_label");
-        //el17.click();
-
-        Assert.assertEquals(ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/et_configure_survey_position_capture_frequency").getText(), "30");
-        Assert.assertEquals(ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/et_configure_survey_maximum_time_limit").getText(), "45");
-        Assert.assertEquals(ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/et_configure_survey_maximum_acceptable_pdop").getText(), "4.0");
-        Assert.assertEquals(ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/et_configure_survey_maximum_acceptable_std_dev").getText(), "9.0");
-
-        // identify text
-        //var text = ad.findElement(by.tagName("h1"));
-        // obtain color in rgba
-        //String s = text.getCssValue("color");
-        //convert rgba to hex
-        //String c = Color.fromString(s).asHex();
-
+        
+        Assert.assertEquals(ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/tv_spinner_dropdown_item").getText(),"map");
+        Assert.assertEquals(ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/tv_spinner_dropdown_item").getColorCodeHex(), #17BDCD);
+        Assert.assertEquals(ad.findElementById("com.janacorporation.lantern.mobile.core.enbridge:id/service_dropdown_item").getColorCodeHex(), #079003);
+      
+        
     }
 }
