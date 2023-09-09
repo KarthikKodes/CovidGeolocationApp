@@ -237,8 +237,11 @@ function fnSetTabProps(iTab,fActive)
     cursor=(fActive?"default":"hand");
     color=c_rgszClr[3];
    }
+   iTab++;
+   fActive++;
   }
  }
+ fnSetTabProps(iTab,fActive);
 }
 
 function fnMouseOverScroll(iCtl)
