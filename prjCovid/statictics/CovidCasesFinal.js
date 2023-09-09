@@ -20,8 +20,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
  var c_lTabs=2;
 
  var c_rgszSh=new Array(c_lTabs);
- c_rgszSh[0] = "By Country";
- c_rgszSh[1] = "By Province";
+ c_rgszSh[0] = "ByÂ Country";
+ c_rgszSh[1] = "ByÂ Province";
 
 
 
