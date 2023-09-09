@@ -158,6 +158,8 @@ function fnTabToCol(iTab)
  return 2*iTab+1;
 }
 
+//fnNextTab
+
 function fnNextTab(fDir)
 {
  var iNextTab=-1;
